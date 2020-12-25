@@ -16,17 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="main background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PIM-Ac-ULk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="main background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wI9-Sg-Hqn">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="PIM-Ac-ULk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Nhu-IS-7e2"/>
-                            <constraint firstItem="PIM-Ac-ULk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="OP8-9P-QgT"/>
-                            <constraint firstAttribute="trailing" secondItem="PIM-Ac-ULk" secondAttribute="trailing" id="bgr-XJ-Ls9"/>
-                            <constraint firstAttribute="bottom" secondItem="PIM-Ac-ULk" secondAttribute="bottom" id="zC6-vp-BZO"/>
+                            <constraint firstAttribute="trailing" secondItem="wI9-Sg-Hqn" secondAttribute="trailing" id="0RU-9b-c6d"/>
+                            <constraint firstItem="wI9-Sg-Hqn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KRc-2k-Vct"/>
+                            <constraint firstItem="wI9-Sg-Hqn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="goC-8G-T6U"/>
+                            <constraint firstAttribute="bottom" secondItem="wI9-Sg-Hqn" secondAttribute="bottom" id="rDl-pF-SMG"/>
                         </constraints>
                     </view>
                 </viewController>
