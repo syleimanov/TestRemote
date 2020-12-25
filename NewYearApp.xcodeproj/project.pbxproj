@@ -13,6 +13,7 @@
 		843352662596480B005028F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843352642596480B005028F5 /* Main.storyboard */; };
 		843352682596480E005028F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843352672596480E005028F5 /* Assets.xcassets */; };
 		8433526B2596480E005028F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843352692596480E005028F5 /* LaunchScreen.storyboard */; };
+		84B626762596675D007C028E /* main background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B626752596675D007C028E /* main background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		843352672596480E005028F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8433526A2596480E005028F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8433526C2596480E005028F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B626752596675D007C028E /* main background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "main background.jpg"; path = "Assets.xcassets/main background.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				843352642596480B005028F5 /* Main.storyboard */,
 				843352672596480E005028F5 /* Assets.xcassets */,
 				843352692596480E005028F5 /* LaunchScreen.storyboard */,
+				84B626752596675D007C028E /* main background.jpg */,
 				8433526C2596480E005028F5 /* Info.plist */,
 			);
 			path = NewYearApp;
@@ -127,6 +130,7 @@
 				8433526B2596480E005028F5 /* LaunchScreen.storyboard in Resources */,
 				843352682596480E005028F5 /* Assets.xcassets in Resources */,
 				843352662596480B005028F5 /* Main.storyboard in Resources */,
+				84B626762596675D007C028E /* main background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
