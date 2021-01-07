@@ -19,21 +19,30 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="main background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wI9-Sg-Hqn">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFJ-Ah-wWG">
-                                <rect key="frame" x="250" y="270" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qk0-cY-Ol6">
+                                <rect key="frame" x="236" y="299" width="162" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R1m-dM-q4w">
+                                <rect key="frame" x="236" y="409" width="158" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="wI9-Sg-Hqn" secondAttribute="trailing" id="0RU-9b-c6d"/>
+                            <constraint firstItem="R1m-dM-q4w" firstAttribute="top" secondItem="qk0-cY-Ol6" secondAttribute="bottom" constant="76" id="5Vh-cz-rK6"/>
+                            <constraint firstItem="qk0-cY-Ol6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="236" id="ChN-sE-I4C"/>
+                            <constraint firstItem="R1m-dM-q4w" firstAttribute="leading" secondItem="qk0-cY-Ol6" secondAttribute="leading" id="Hec-Zc-IHF"/>
                             <constraint firstItem="wI9-Sg-Hqn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KRc-2k-Vct"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qk0-cY-Ol6" secondAttribute="trailing" constant="16" id="aLQ-cQ-KQS"/>
                             <constraint firstItem="wI9-Sg-Hqn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="goC-8G-T6U"/>
                             <constraint firstAttribute="bottom" secondItem="wI9-Sg-Hqn" secondAttribute="bottom" id="rDl-pF-SMG"/>
+                            <constraint firstItem="qk0-cY-Ol6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="255" id="stE-f1-5Xd"/>
+                            <constraint firstItem="qk0-cY-Ol6" firstAttribute="leading" secondItem="R1m-dM-q4w" secondAttribute="trailing" constant="-158" id="uwm-QS-ZNe"/>
                         </constraints>
                     </view>
                 </viewController>
