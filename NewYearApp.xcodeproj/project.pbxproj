@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84100E6725A793C1000BFEC2 /* test_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84100E6625A793C1000BFEC2 /* test_test.swift */; };
 		8433525F2596480B005028F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433525E2596480B005028F5 /* AppDelegate.swift */; };
 		843352612596480B005028F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843352602596480B005028F5 /* SceneDelegate.swift */; };
 		843352632596480B005028F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843352622596480B005028F5 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84100E6625A793C1000BFEC2 /* test_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_test.swift; sourceTree = "<group>"; };
 		8433525B2596480B005028F5 /* NewYearApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewYearApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8433525E2596480B005028F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843352602596480B005028F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				843352602596480B005028F5 /* SceneDelegate.swift */,
 				843352622596480B005028F5 /* ViewController.swift */,
 				843352642596480B005028F5 /* Main.storyboard */,
+				84100E6625A793C1000BFEC2 /* test_test.swift */,
 				843352672596480E005028F5 /* Assets.xcassets */,
 				84B6267F25966B4C007C028E /* main background.jpg */,
 				843352692596480E005028F5 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				843352632596480B005028F5 /* ViewController.swift in Sources */,
+				84100E6725A793C1000BFEC2 /* test_test.swift in Sources */,
 				8433525F2596480B005028F5 /* AppDelegate.swift in Sources */,
 				843352612596480B005028F5 /* SceneDelegate.swift in Sources */,
 			);

@@ -50,6 +50,33 @@
             </objects>
             <point key="canvasLocation" x="-191.30434782608697" y="67.633928571428569"/>
         </scene>
+        <!--test_test-->
+        <scene sceneID="I72-AW-eFk">
+            <objects>
+                <viewController id="nq2-FI-gc2" userLabel="test_test" customClass="test_test" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wmC-rg-Mnu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Экран Вовы" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhG-cV-bKL">
+                                <rect key="frame" x="76" y="418.5" width="262" height="59"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                <color key="textColor" red="0.61356460489999998" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7WV-v4-LTS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mhG-cV-bKL" firstAttribute="centerY" secondItem="wmC-rg-Mnu" secondAttribute="centerY" id="Fc7-uH-zPm"/>
+                            <constraint firstItem="mhG-cV-bKL" firstAttribute="centerX" secondItem="wmC-rg-Mnu" secondAttribute="centerX" id="wdd-bV-6Pn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P5F-ZM-AJq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="645" y="68"/>
+        </scene>
     </scenes>
     <resources>
         <image name="main background.jpg" width="307.9384765625" height="666.83074951171875"/>
