@@ -14,6 +14,7 @@
 		843352682596480E005028F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843352672596480E005028F5 /* Assets.xcassets */; };
 		8433526B2596480E005028F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843352692596480E005028F5 /* LaunchScreen.storyboard */; };
 		84B6268025966B4C007C028E /* main background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B6267F25966B4C007C028E /* main background.jpg */; };
+		D9CB637C25A87BC500554203 /* NYVideo.mov in Resources */ = {isa = PBXBuildFile; fileRef = D9CB637B25A87BC500554203 /* NYVideo.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8433526A2596480E005028F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8433526C2596480E005028F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84B6267F25966B4C007C028E /* main background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "main background.jpg"; path = "Assets.xcassets/main background.jpg"; sourceTree = "<group>"; };
+		D9CB637B25A87BC500554203 /* NYVideo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = NYVideo.mov; path = ../../NYVideo.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		8433525D2596480B005028F5 /* NewYearApp */ = {
 			isa = PBXGroup;
 			children = (
+				D9CB637B25A87BC500554203 /* NYVideo.mov */,
 				8433525E2596480B005028F5 /* AppDelegate.swift */,
 				843352602596480B005028F5 /* SceneDelegate.swift */,
 				843352622596480B005028F5 /* ViewController.swift */,
@@ -128,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8433526B2596480E005028F5 /* LaunchScreen.storyboard in Resources */,
+				D9CB637C25A87BC500554203 /* NYVideo.mov in Resources */,
 				843352682596480E005028F5 /* Assets.xcassets in Resources */,
 				843352662596480B005028F5 /* Main.storyboard in Resources */,
 				84B6268025966B4C007C028E /* main background.jpg in Resources */,
@@ -291,8 +295,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C3XG75R6R4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NewYearApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,8 +315,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C3XG75R6R4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NewYearApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
