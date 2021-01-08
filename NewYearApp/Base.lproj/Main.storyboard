@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ksk-Un-SED">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NewYearApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="main background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wI9-Sg-Hqn">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -33,6 +33,145 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-191.30434782608697" y="67.633928571428569"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="gJw-wy-84O">
+            <objects>
+                <viewController id="ksk-Un-SED" customClass="ThirdViewController" customModule="NewYearApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uMu-GP-yaL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Я хочу..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0OU-Kv-T58">
+                                <rect key="frame" x="16" y="207.5" width="343" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.91342618487108673" alpha="0.69267138007546769" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light" smartInsertDeleteType="yes" smartQuotesType="no"/>
+                                <connections>
+                                    <outlet property="delegate" destination="ksk-Un-SED" id="iEr-RB-iCt"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Что ты хочешь получить в подарок от Санты?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTy-cu-Zqc">
+                                <rect key="frame" x="16" y="70" width="343" height="67.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dI-UU-y5D">
+                                <rect key="frame" x="119" y="521" width="137" height="46"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="Отправить">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendMailButton:" destination="ksk-Un-SED" eventType="touchUpInside" id="cyw-vC-Cy4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HpE-cd-oN2"/>
+                        <color key="backgroundColor" red="1" green="0.83337634800000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0OU-Kv-T58" firstAttribute="top" secondItem="xTy-cu-Zqc" secondAttribute="bottom" constant="70" id="8WY-nC-VuC"/>
+                            <constraint firstItem="xTy-cu-Zqc" firstAttribute="top" secondItem="HpE-cd-oN2" secondAttribute="top" constant="70" id="8Wi-1q-LJo"/>
+                            <constraint firstItem="0OU-Kv-T58" firstAttribute="leading" secondItem="HpE-cd-oN2" secondAttribute="leading" constant="16" id="LyX-EJ-hRd"/>
+                            <constraint firstItem="7dI-UU-y5D" firstAttribute="centerX" secondItem="uMu-GP-yaL" secondAttribute="centerX" id="OR1-gD-hCw"/>
+                            <constraint firstItem="HpE-cd-oN2" firstAttribute="bottom" secondItem="7dI-UU-y5D" secondAttribute="bottom" constant="100" id="Scc-fw-oYe"/>
+                            <constraint firstItem="xTy-cu-Zqc" firstAttribute="leading" secondItem="uMu-GP-yaL" secondAttribute="leading" constant="16" id="c0G-XQ-mnB"/>
+                            <constraint firstAttribute="trailing" secondItem="xTy-cu-Zqc" secondAttribute="trailing" constant="16" id="eVc-fS-Mcq"/>
+                            <constraint firstItem="HpE-cd-oN2" firstAttribute="trailing" secondItem="0OU-Kv-T58" secondAttribute="trailing" constant="16" id="uyW-gN-ajf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textFieldOutlet" destination="0OU-Kv-T58" id="OEb-RQ-iDL"/>
+                        <segue destination="fj7-ex-FoR" kind="show" identifier="sendMailSegue" id="yda-fK-lH9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ow6-wU-oot" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="811.875" y="78.16901408450704"/>
+        </scene>
+        <!--Mail Sent View Controller-->
+        <scene sceneID="hQa-Wb-gva">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="fj7-ex-FoR" customClass="MailSentViewController" customModule="NewYearApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mce-aW-1fH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Письмо отправлено:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5s-Wj-SKR">
+                                <rect key="frame" x="16" y="40" width="343" height="33.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mTO-Db-FHl">
+                                <rect key="frame" x="16" y="89.5" width="343" height="250.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Svb-vv-dBm">
+                                <rect key="frame" x="90" y="491" width="195" height="46"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="Отправить еще">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sda-u0-oRL" kind="unwind" unwindAction="unwind:" id="FUG-uI-wpf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дорогой дедушка мороз!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXB-0M-6pt">
+                                <rect key="frame" x="32" y="123.5" width="311" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfH-sF-ofU">
+                                <rect key="frame" x="32" y="160.5" width="311" height="108.5"/>
+                                <string key="text">Ёлки у меня нет, поэтому положи мой подарок на стол. Не забудь закрыть за собой форточку. На столе лежит коробка конфет - все не ешь. Это мой подарок из садика. Ах, да! Хочу ()!</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nk7-qS-UmC">
+                                <rect key="frame" x="113.5" y="551" width="148" height="46"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="На главную">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EFn-ap-BsQ"/>
+                        <color key="backgroundColor" red="1" green="0.84146350619999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EFn-ap-BsQ" firstAttribute="trailing" secondItem="sfH-sF-ofU" secondAttribute="trailing" constant="32" id="33s-Gz-nKa"/>
+                            <constraint firstItem="nk7-qS-UmC" firstAttribute="centerX" secondItem="mce-aW-1fH" secondAttribute="centerX" id="BHM-Xc-IsX"/>
+                            <constraint firstItem="EFn-ap-BsQ" firstAttribute="bottom" secondItem="Svb-vv-dBm" secondAttribute="bottom" constant="130" id="F91-j5-Qaa"/>
+                            <constraint firstItem="EFn-ap-BsQ" firstAttribute="trailing" secondItem="gXB-0M-6pt" secondAttribute="trailing" constant="32" id="Kly-aa-zfc"/>
+                            <constraint firstItem="gXB-0M-6pt" firstAttribute="top" secondItem="E5s-Wj-SKR" secondAttribute="bottom" constant="50" id="LVf-Us-Udl"/>
+                            <constraint firstItem="E5s-Wj-SKR" firstAttribute="leading" secondItem="EFn-ap-BsQ" secondAttribute="leading" constant="16" id="MuV-V0-wHF"/>
+                            <constraint firstItem="EFn-ap-BsQ" firstAttribute="trailing" secondItem="E5s-Wj-SKR" secondAttribute="trailing" constant="16" id="Pff-Zl-k3W"/>
+                            <constraint firstItem="Svb-vv-dBm" firstAttribute="centerX" secondItem="mce-aW-1fH" secondAttribute="centerX" id="RIN-3b-CdL"/>
+                            <constraint firstItem="gXB-0M-6pt" firstAttribute="leading" secondItem="EFn-ap-BsQ" secondAttribute="leading" constant="32" id="TDg-L7-rAM"/>
+                            <constraint firstItem="E5s-Wj-SKR" firstAttribute="top" secondItem="EFn-ap-BsQ" secondAttribute="top" constant="40" id="ToT-Bs-tbN"/>
+                            <constraint firstItem="EFn-ap-BsQ" firstAttribute="bottom" secondItem="nk7-qS-UmC" secondAttribute="bottom" constant="70" id="bHu-Lu-qo5"/>
+                            <constraint firstItem="mTO-Db-FHl" firstAttribute="top" secondItem="E5s-Wj-SKR" secondAttribute="bottom" constant="16" id="cfz-vI-BGr"/>
+                            <constraint firstItem="sfH-sF-ofU" firstAttribute="leading" secondItem="EFn-ap-BsQ" secondAttribute="leading" constant="32" id="qMj-hg-1S1"/>
+                            <constraint firstItem="sfH-sF-ofU" firstAttribute="top" secondItem="gXB-0M-6pt" secondAttribute="bottom" constant="16" id="s9h-IU-v7O"/>
+                            <constraint firstItem="mTO-Db-FHl" firstAttribute="leading" secondItem="EFn-ap-BsQ" secondAttribute="leading" constant="16" id="uEW-pF-mV5"/>
+                            <constraint firstItem="sfH-sF-ofU" firstAttribute="centerY" secondItem="mTO-Db-FHl" secondAttribute="centerY" id="ubl-4y-msm"/>
+                            <constraint firstItem="EFn-ap-BsQ" firstAttribute="trailing" secondItem="mTO-Db-FHl" secondAttribute="trailing" constant="16" id="zxr-Tf-DKJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ap0-BT-zcO"/>
+                    <connections>
+                        <outlet property="mailLabel" destination="sfH-sF-ofU" id="KmH-Gz-65v"/>
+                        <outlet property="paperView" destination="mTO-Db-FHl" id="Mec-BP-6Mh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tWH-WT-bPI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="sda-u0-oRL" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1583.2" y="77.811094452773617"/>
         </scene>
     </scenes>
     <resources>

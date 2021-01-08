@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A14551925A3E29E003772DB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A14551825A3E29E003772DB /* ThirdViewController.swift */; };
+		4A14551D25A3E3CC003772DB /* MailSentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A14551C25A3E3CC003772DB /* MailSentViewController.swift */; };
 		8433525F2596480B005028F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433525E2596480B005028F5 /* AppDelegate.swift */; };
 		843352612596480B005028F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843352602596480B005028F5 /* SceneDelegate.swift */; };
 		843352632596480B005028F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843352622596480B005028F5 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A14551825A3E29E003772DB /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		4A14551C25A3E3CC003772DB /* MailSentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailSentViewController.swift; sourceTree = "<group>"; };
 		8433525B2596480B005028F5 /* NewYearApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewYearApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8433525E2596480B005028F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843352602596480B005028F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				843352602596480B005028F5 /* SceneDelegate.swift */,
 				843352622596480B005028F5 /* ViewController.swift */,
 				843352642596480B005028F5 /* Main.storyboard */,
+				4A14551825A3E29E003772DB /* ThirdViewController.swift */,
+				4A14551C25A3E3CC003772DB /* MailSentViewController.swift */,
 				843352672596480E005028F5 /* Assets.xcassets */,
 				84B6267F25966B4C007C028E /* main background.jpg */,
 				843352692596480E005028F5 /* LaunchScreen.storyboard */,
@@ -143,6 +149,8 @@
 			files = (
 				843352632596480B005028F5 /* ViewController.swift in Sources */,
 				8433525F2596480B005028F5 /* AppDelegate.swift in Sources */,
+				4A14551D25A3E3CC003772DB /* MailSentViewController.swift in Sources */,
+				4A14551925A3E29E003772DB /* ThirdViewController.swift in Sources */,
 				843352612596480B005028F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
